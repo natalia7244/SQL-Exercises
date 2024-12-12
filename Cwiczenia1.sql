@@ -12,5 +12,5 @@ SELECT CategoryName, Description from Categories;
 
 --5. Poka¿ nazwy i adresy stron www dostawców. Którzy dostawcy nie maj¹ strony www? 
 SELECT CompanyName, HomePage from Suppliers
-WHERE HomePage IS NULL;
+WHERE HomePage IS NULL; 
 
